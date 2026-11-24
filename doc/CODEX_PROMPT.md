@@ -1,0 +1,6 @@
+# Prompt awal untuk Codex
+Bertindaklah sebagai senior full-stack engineer untuk membangun Priorio V1.0 berdasarkan paket requirement di direktori ini. Baca AGENTS.md dan semua dokumen di docs/ termasuk TRACEABILITY.csv di root. Jangan langsung mengimplementasikan seluruh aplikasi.
+
+Pertama: inventaris repo, review konsistensi requirement, identifikasi konflik nyata, verifikasi Node/npm/Git serta kompatibilitas Next.js 16, React 19, Prisma 7 dan SQLite adapter pada perangkat ini. Kerjakan T-01 dan T-02 sesuai TASKS.md, termasuk probe nyata generate/migrate/CRUD/build, lock versi dependency yang lolos, dan dokumentasikan bukti tanpa mengubah data pribadi. Jika dependency belum tersedia, jelaskan blocker, jangan mengarang output.
+
+Setelah gate berhasil, laporkan hasil, rencana implementasi berdasarkan task, dan lanjutkan T-03 sampai satu tahap fondasi selesai. Jangan mengubah scope, algoritma prioritas, struktur data atau aturan keamanan tanpa alasan terdokumentasi. Pada setiap tahap, jalankan pengujian yang relevan, update .work/progress.md, dan sebutkan task berikutnya. Gunakan data simulasi hanya di test atau demo opsional. Aplikasi harus bekerja pada localhost tanpa internet setelah instalasi, dengan database persisten, UI Indonesia/English, tema light/dark, sidebar collapsible, modal dan kalender. Jangan deploy aplikasi.

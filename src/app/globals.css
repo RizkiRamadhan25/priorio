@@ -1,0 +1,58 @@
+@import "tailwindcss" source("../");
+@import "./workspace.css";
+@import "./interaction.css";
+
+:root {
+  color-scheme: light;
+  --background: #F6F7FA;
+  --surface: #FFFFFF;
+  --surface-muted: #EEF0F5;
+  --text: #171923;
+  --text-muted: #555E70;
+  --border: #D9DDE6;
+  --primary: #4F46E5;
+  --primary-foreground: #FFFFFF;
+  --success: #166534;
+  --warning: #92400E;
+  --danger: #B91C1C;
+  --info: #1D4ED8;
+  --focus: #4F46E5;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #111318;
+  --surface: #191C23;
+  --surface-muted: #222630;
+  --text: #F2F3F7;
+  --text-muted: #AAB2C2;
+  --border: #353B48;
+  --primary: #A5B4FC;
+  --primary-foreground: #171923;
+  --success: #86EFAC;
+  --warning: #FCD34D;
+  --danger: #FCA5A5;
+  --info: #93C5FD;
+  --focus: #A5B4FC;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
+}
+
+body { margin: 0; background: var(--background); color: var(--text); font-family: system-ui, sans-serif; line-height: 1.5; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

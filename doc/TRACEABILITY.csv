@@ -1,0 +1,136 @@
+﻿requirement_id,requirement,implementation_task,test_id,test_suite,status
+FR-001,Total task count,T-11,V-FR-001,dashboard,NOT_RUN
+FR-002,Active task count,T-11,V-FR-002,dashboard,NOT_RUN
+FR-003,To Do count,T-11,V-FR-003,dashboard,NOT_RUN
+FR-004,In Progress count,T-11,V-FR-004,dashboard,NOT_RUN
+FR-005,Completed count,T-11,V-FR-005,dashboard,NOT_RUN
+FR-006,Overdue count,T-11,V-FR-006,dashboard,NOT_RUN
+FR-007,Completion percentage,T-11,V-FR-007,dashboard,NOT_RUN
+FR-008,Top five priority tasks,T-11,V-FR-008,dashboard,NOT_RUN
+FR-009,Upcoming deadlines in 7-day window,T-11,V-FR-009,dashboard,NOT_RUN
+FR-010,Status distribution,T-11,V-FR-010,dashboard,NOT_RUN
+FR-011,Course/category distribution,T-11,V-FR-011,dashboard,NOT_RUN
+FR-012,Create task,T-08,V-FR-012,tasks,NOT_RUN
+FR-013,View task details,T-08,V-FR-013,tasks,NOT_RUN
+FR-014,Edit task,T-08,V-FR-014,tasks,NOT_RUN
+FR-015,Delete task,T-08,V-FR-015,tasks,NOT_RUN
+FR-016,Choose task type,T-08,V-FR-016,tasks,NOT_RUN
+FR-017,Choose course,T-08,V-FR-017,tasks,NOT_RUN
+FR-018,Choose category,T-08,V-FR-018,tasks,NOT_RUN
+FR-019,Set assigned date,T-08,V-FR-019,tasks,NOT_RUN
+FR-020,Set deadline date and optional time,T-08,V-FR-020,tasks,NOT_RUN
+FR-021,Set level 0–5,T-08,V-FR-021,tasks,NOT_RUN
+FR-022,Change task status,T-08,V-FR-022,tasks,NOT_RUN
+FR-023,Mark task completed,T-08,V-FR-023,tasks,NOT_RUN
+FR-024,Reopen completed task,T-08,V-FR-024,tasks,NOT_RUN
+FR-025,Confirm deletion,T-08,V-FR-025,tasks,NOT_RUN
+FR-026,Persist changes,T-08,V-FR-026,tasks,NOT_RUN
+FR-027,Create course,T-06,V-FR-027,courses,NOT_RUN
+FR-028,Edit course,T-06,V-FR-028,courses,NOT_RUN
+FR-029,Choose course color,T-06,V-FR-029,courses,NOT_RUN
+FR-030,Archive course,T-06,V-FR-030,courses,NOT_RUN
+FR-031,Delete unreferenced course,T-06,V-FR-031,courses,NOT_RUN
+FR-032,Show course task count,T-06,V-FR-032,courses,NOT_RUN
+FR-033,View tasks by course,T-06,V-FR-033,courses,NOT_RUN
+FR-034,Restore archived course,T-06,V-FR-034,courses,NOT_RUN
+FR-035,Create category,T-07,V-FR-035,categories,NOT_RUN
+FR-036,Edit category,T-07,V-FR-036,categories,NOT_RUN
+FR-037,Choose category color,T-07,V-FR-037,categories,NOT_RUN
+FR-038,Delete unreferenced category,T-07,V-FR-038,categories,NOT_RUN
+FR-039,Archive category,T-07,V-FR-039,categories,NOT_RUN
+FR-040,Show category task count,T-07,V-FR-040,categories,NOT_RUN
+FR-041,Restore archived category,T-07,V-FR-041,categories,NOT_RUN
+FR-042,Monthly calendar,T-12,V-FR-042,calendar,NOT_RUN
+FR-043,Navigate month/year,T-12,V-FR-043,calendar,NOT_RUN
+FR-044,Show due date indicators,T-12,V-FR-044,calendar,NOT_RUN
+FR-045,Select date to list tasks,T-12,V-FR-045,calendar,NOT_RUN
+FR-046,Use group colors,T-12,V-FR-046,calendar,NOT_RUN
+FR-047,Highlight today,T-12,V-FR-047,calendar,NOT_RUN
+FR-048,Open task detail,T-12,V-FR-048,calendar,NOT_RUN
+FR-049,Create task with selected deadline,T-12,V-FR-049,calendar,NOT_RUN
+FR-050,Filter active/completed tasks,T-12,V-FR-050,calendar,NOT_RUN
+FR-051,List completed tasks,T-13,V-FR-051,completed,NOT_RUN
+FR-052,Show completion date,T-13,V-FR-052,completed,NOT_RUN
+FR-053,Search completed tasks,T-13,V-FR-053,completed,NOT_RUN
+FR-054,Filter by course/category,T-13,V-FR-054,completed,NOT_RUN
+FR-055,Reopen task,T-13,V-FR-055,completed,NOT_RUN
+FR-056,View/edit task details,T-13,V-FR-056,completed,NOT_RUN
+FR-057,Delete with confirmation,T-13,V-FR-057,completed,NOT_RUN
+FR-058,Search title,T-10,V-FR-058,search,NOT_RUN
+FR-059,Search description,T-10,V-FR-059,search,NOT_RUN
+FR-060,Filter task type,T-10,V-FR-060,search,NOT_RUN
+FR-061,Filter course,T-10,V-FR-061,search,NOT_RUN
+FR-062,Filter category,T-10,V-FR-062,search,NOT_RUN
+FR-063,Filter level,T-10,V-FR-063,search,NOT_RUN
+FR-064,Filter status,T-10,V-FR-064,search,NOT_RUN
+FR-065,Filter deadline condition,T-10,V-FR-065,search,NOT_RUN
+FR-066,Sort priority,T-10,V-FR-066,search,NOT_RUN
+FR-067,Sort deadline,T-10,V-FR-067,search,NOT_RUN
+FR-068,Sort difficulty,T-10,V-FR-068,search,NOT_RUN
+FR-069,Sort created date,T-10,V-FR-069,search,NOT_RUN
+FR-070,Sort title,T-10,V-FR-070,search,NOT_RUN
+FR-071,Clear all filters,T-10,V-FR-071,search,NOT_RUN
+FR-072,Change theme,T-14,V-FR-072,settings,NOT_RUN
+FR-073,Change language,T-14,V-FR-073,settings,NOT_RUN
+FR-074,Persist sidebar preference,T-14,V-FR-074,settings,NOT_RUN
+FR-075,Restore preferences after restart,T-14,V-FR-075,settings,NOT_RUN
+FR-076,Show app version,T-14,V-FR-076,settings,NOT_RUN
+FR-077,Show database path,T-14,V-FR-077,settings,NOT_RUN
+FR-078,Light mode,T-14,V-FR-078,theme,NOT_RUN
+FR-079,Dark mode,T-14,V-FR-079,theme,NOT_RUN
+FR-080,Switch without full reload,T-14,V-FR-080,theme,NOT_RUN
+FR-081,Persist theme,T-14,V-FR-081,theme,NOT_RUN
+FR-082,All components support both themes,T-14,V-FR-082,theme,NOT_RUN
+FR-083,Indonesian UI,T-14,V-FR-083,i18n,NOT_RUN
+FR-084,English UI,T-14,V-FR-084,i18n,NOT_RUN
+FR-085,Switch without full reload,T-14,V-FR-085,i18n,NOT_RUN
+FR-086,Translate all UI text,T-14,V-FR-086,i18n,NOT_RUN
+FR-087,Locale-specific date/month,T-14,V-FR-087,i18n,NOT_RUN
+FR-088,Localized validation and toast,T-14,V-FR-088,i18n,NOT_RUN
+FR-089,Persist language,T-14,V-FR-089,i18n,NOT_RUN
+FR-090,Store data locally,T-04,V-FR-090,database,NOT_RUN
+FR-091,Persist on restart,T-04,V-FR-091,database,NOT_RUN
+FR-092,Initialize database,T-04,V-FR-092,database,NOT_RUN
+FR-093,Support migrations,T-04,V-FR-093,database,NOT_RUN
+FR-094,Validate relationships,T-04,V-FR-094,database,NOT_RUN
+FR-095,Restrict referenced deletion,T-04,V-FR-095,database,NOT_RUN
+FR-096,Report persistence failures,T-04,V-FR-096,database,NOT_RUN
+NFR-001,Dashboard warm load target <=2 s,T-18,V-NFR-001,quality,NOT_RUN
+NFR-002,Task save target <=500 ms,T-18,V-NFR-002,quality,NOT_RUN
+NFR-003,Rank 1000 tasks <=200 ms,T-18,V-NFR-003,quality,NOT_RUN
+NFR-004,No full reload on theme/language,T-18,V-NFR-004,quality,NOT_RUN
+NFR-005,Usable with 5000 tasks,T-18,V-NFR-005,quality,NOT_RUN
+NFR-006,Easy access to new task action,T-15,V-NFR-006,quality,NOT_RUN
+NFR-007,Consistent navigation,T-15,V-NFR-007,quality,NOT_RUN
+NFR-008,Empty state,T-15,V-NFR-008,quality,NOT_RUN
+NFR-009,Loading state,T-15,V-NFR-009,quality,NOT_RUN
+NFR-010,Success/error feedback,T-15,V-NFR-010,quality,NOT_RUN
+NFR-011,Confirm destructive actions,T-15,V-NFR-011,quality,NOT_RUN
+NFR-012,Usable without tutorial,T-15,V-NFR-012,quality,NOT_RUN
+NFR-013,Default server loopback,T-16,V-NFR-013,quality,NOT_RUN
+NFR-014,No external data transmission,T-16,V-NFR-014,quality,NOT_RUN
+NFR-015,Server-side validation,T-16,V-NFR-015,quality,NOT_RUN
+NFR-016,Prevent SQL injection,T-16,V-NFR-016,quality,NOT_RUN
+NFR-017,Escape user HTML/script,T-16,V-NFR-017,quality,NOT_RUN
+NFR-018,Database outside public,T-16,V-NFR-018,quality,NOT_RUN
+NFR-019,Do not commit private database,T-16,V-NFR-019,quality,NOT_RUN
+NFR-020,No external telemetry,T-16,V-NFR-020,quality,NOT_RUN
+NFR-021,Protect mutations against cross-origin requests,T-16,V-NFR-021,quality,NOT_RUN
+NFR-022,Keyboard controls,T-15,V-NFR-022,quality,NOT_RUN
+NFR-023,Input labels,T-15,V-NFR-023,quality,NOT_RUN
+NFR-024,Modal focus management and Escape,T-15,V-NFR-024,quality,NOT_RUN
+NFR-025,Color not sole indicator,T-15,V-NFR-025,quality,NOT_RUN
+NFR-026,Normal text contrast >=4.5:1,T-15,V-NFR-026,quality,NOT_RUN
+NFR-027,Visible focus state,T-15,V-NFR-027,quality,NOT_RUN
+NFR-028,Respect reduced motion,T-15,V-NFR-028,quality,NOT_RUN
+NFR-029,TypeScript strict,T-03,V-NFR-029,quality,NOT_RUN
+NFR-030,Separate UI and domain logic,T-03,V-NFR-030,quality,NOT_RUN
+NFR-031,Reusable components,T-03,V-NFR-031,quality,NOT_RUN
+NFR-032,Pure independently tested priority engine,T-09,V-NFR-032,quality,NOT_RUN
+NFR-033,Modular folders,T-03,V-NFR-033,quality,NOT_RUN
+NFR-034,Install documentation,T-19,V-NFR-034,quality,NOT_RUN
+NFR-035,Unit tests for business rules,T-17,V-NFR-035,quality,NOT_RUN
+NFR-036,E2E tests for critical flows,T-17,V-NFR-036,quality,NOT_RUN
+PE-R01,Dynamic ranking and tie-breaks,T-09,V-PE-R01,priority,NOT_RUN
+PE-R02,Refresh at boundaries and changes,T-09,V-PE-R02,priority,NOT_RUN
+PE-R03,Full ranking explanation,T-10,V-PE-R03,priority,NOT_RUN

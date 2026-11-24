@@ -1,0 +1,4 @@
+# Specification audit
+Mechanical check performed during package generation: 96 FR + 36 NFR + 3 explicit priority requirements = 135 unique mapped IDs; each has a PRD entry, TASKS reference and TESTING verification ID; 20 tasks; AGENTS.md under 150 lines. Cross-document decisions reconciled for local dates, deadline boundaries, group XOR, completed_at, seed idempotence, theme/locale, local-only runtime and environment variables. Priority verification cases PE-01..24, original AC-001..030 retained.
+
+Limits: mapping is a documentation-level check, not automated test execution or a proof that the software satisfies requirements. Dependency patch compatibility, native SQLite, exact config API, actual commands/build, security, accessibility and performance require target machine verification. No application code produced. Design is a proposed visual specification (not Figma high-fidelity design). Read DECISIONS for assumptions. All tests NOT_RUN; all tasks NOT_STARTED.

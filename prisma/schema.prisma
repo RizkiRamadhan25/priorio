@@ -1,0 +1,71 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Course {
+  id         String   @id @default(uuid())
+  name       String
+  nameKey    String   @unique @map("name_key")
+  code       String?
+  lecturer   String?
+  color      String   @default("#6366F1")
+  isArchived Boolean  @default(false) @map("is_archived")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+  tasks      Task[]
+  @@map("courses")
+}
+
+model Category {
+  id          String   @id @default(uuid())
+  name        String
+  nameKey     String   @unique @map("name_key")
+  description String?
+  color       String   @default("#64748B")
+  isArchived  Boolean  @default(false) @map("is_archived")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  tasks       Task[]
+  @@map("categories")
+}
+
+model Task {
+  id              String   @id @default(uuid())
+  title           String
+  description     String?
+  taskType        String   @map("task_type")
+  courseId        String?  @map("course_id")
+  categoryId      String?  @map("category_id")
+  assignedDate    String   @map("assigned_date")
+  dueDate         String   @map("due_date")
+  dueTime         String?  @map("due_time")
+  difficultyLevel Int      @default(0) @map("difficulty_level")
+  status          String   @default("TODO")
+  notes           String?
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+  completedAt     DateTime? @map("completed_at")
+  course          Course? @relation(fields: [courseId], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  category        Category? @relation(fields: [categoryId], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  @@index([status, dueDate, dueTime])
+  @@index([courseId])
+  @@index([categoryId])
+  @@index([completedAt])
+  @@index([createdAt])
+  @@map("tasks")
+}
+
+model AppSettings {
+  id               Int      @id
+  theme            String   @default("light")
+  language         String   @default("id")
+  sidebarCollapsed Boolean  @default(false) @map("sidebar_collapsed")
+  seededDefaults   Boolean  @default(false) @map("seeded_defaults")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+  @@map("app_settings")
+}
